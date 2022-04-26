@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700&display=swap");
+@layer base {
+  body {
+    @apply font-[Spartan];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.5),
+    hsla(242, 74%, 61%, 0.5)
+  ) !important;
+}
+
+body {
+  background-color: #002147;
+}
+
+button {
+  text-decoration: none;
+  background: rgba(238, 195, 115);
+  color: rgb(0, 33, 71, 0.8);
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  color: rgba(0, 33, 71, 1);
+  box-shadow: 0 5px 15px rgba(238, 195, 115, 0.4);
+}
+#email:hover {
+  text-shadow: 0 5px 15px rgba(238, 195, 115, 0.4);
+  color: rgba(238, 195, 115, 1);
 }
