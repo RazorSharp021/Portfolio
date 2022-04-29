@@ -35,7 +35,7 @@ const Home = () => {
             </button>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1tohhRMHT1L7gxyDGD45gICmZK4f0r-dJ/view?usp=sharing
+            href="https://drive.google.com/file/d/1K_ENU2m7q_cVKe-6HDMOoZWKVmjebQDo/view?usp=sharing
               "
             // download="My Resume"
             target="_blank"
