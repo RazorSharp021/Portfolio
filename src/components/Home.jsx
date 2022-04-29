@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { AiOutlineCloudDownload } from "react-icons/ai";
+// import { AiOutlineCloudDownload } from "react-icons/ai";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -13,10 +13,10 @@ const Home = () => {
           Reza
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] ">
-          I'm a software engineer
+          I'm a software developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a graduate full-stack engineer with a decent blend of both
+          I'm a graduate full-stack developer with a decent blend of both
           creativity and critical-thinking, ready to dive into the software
           engineering world with full force. I'm also a music producer/DJ
           performing live sets in electronic music events and an aviation
@@ -35,16 +35,17 @@ const Home = () => {
             </button>
           </Link>
           <a
-            href="https://drive.google.com/uc?export=download&id=1D-e19YnucrW1vuZy1jAzvfAP4_bTm05u
+            href="https://drive.google.com/file/d/1tohhRMHT1L7gxyDGD45gICmZK4f0r-dJ/view?usp=sharing
               "
-            download="My Resume"
+            // download="My Resume"
+            target="_blank"
           >
-            <button className=" ml-2 text-[#676e88] group px-2 py-2 my-2 flex items-center rounded">
+            <button className=" ml-2 text-[#676e88] group px-6 py-2 my-2 flex items-center rounded">
               {" "}
               Resume
-              <span className="group-hover:animate-bounce">
-                <AiOutlineCloudDownload className="ml-3" />
-              </span>
+              {/* <span className="group-hover:animate-bounce"> */}
+                {/* <AiOutlineCloudDownload className="ml-3" /> */}
+              {/* </span> */}
             </button>
           </a>
         </div>

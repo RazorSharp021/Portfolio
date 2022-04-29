@@ -104,6 +104,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/rghafour/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -112,6 +113,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/RazorSharp021"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -120,6 +122,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:ghafour.reza@gmail.com"
+              target="_blank"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -127,9 +130,10 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FFF6EA] ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/uc?export=download&id=1D-e19YnucrW1vuZy1jAzvfAP4_bTm05u
+              href="https://drive.google.com/file/d/1tohhRMHT1L7gxyDGD45gICmZK4f0r-dJ/view?usp=sharing
               "
-              download={"My Resume"}
+              // download="My Resume"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
@@ -139,6 +143,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://soundcloud.com/razorsharp021
               "
+              target="_blank"
             >
               Music <GrSoundcloud size={30} />
             </a>

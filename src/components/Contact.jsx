@@ -19,7 +19,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            // Please submit the form below or shoot an
+            Please submit the form below or shoot an
             <span>
               <a
                 id="email"
