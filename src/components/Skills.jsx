@@ -53,7 +53,7 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] '>
             <SiRubyonrails size={90} color="#E0E0E0" className="w-20 mx-auto"/>
             {/* <img className='w-20 mx-auto' src={Ruby} alt="HTML icon" /> */}
-            <p className='my-4'>Ruby</p>
+            <p className='my-4'>Ruby on Rails</p>
           </div>
           <div className="shadow-md shadow-[#040c16] ">
             <SiPostgresql size={90} color="#E0E0E0" className="w-20 mx-auto"/>
