@@ -16,7 +16,7 @@ const Home = () => {
           I'm a software developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a graduate full-stack developer with a decent blend of both
+          I'm a full-stack developer with a decent blend of both
           creativity and critical-thinking, ready to dive into the software
           engineering world with full force. I'm also a music producer/DJ
           performing live sets in electronic music events and an aviation
