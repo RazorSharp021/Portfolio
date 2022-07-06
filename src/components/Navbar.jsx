@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { GrSoundcloud } from "react-icons/gr";
 import Logo from "../assets/R G (2).png";
 import { Link } from "react-scroll";
+import { Resume } from '../assets/Reza gh res.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -130,8 +131,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FFF6EA] ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1JhZl31K4KHWsOxoITtxmot6yBwwQCru_/view?usp=sharing
-              "
+              href='src/assets/Reza gh res.png'
               // download="My Resume"
               target="_blank"
             >

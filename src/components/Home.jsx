@@ -35,8 +35,7 @@ const Home = () => {
             </button>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1JhZl31K4KHWsOxoITtxmot6yBwwQCru_/view?usp=sharing
-              "
+            href="src/assets/Reza gh res.png"
             // download="My Resume"
             target="_blank"
           >
