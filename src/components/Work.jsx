@@ -80,37 +80,6 @@ const Work = () => {
             CRUD application for Sydney party people to view a list of upcoming
             events, and store or edit the event data.
           </p> */}
-
-          {/* grid item */}
-          <div
-            style={{ backgroundImage: `url(${Tic})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
-          >
-            {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100 ">
-              <span className="text-m font-bold text-white tracking-wider">
-                Tic Tac Toe
-              </span>
-              <p>A digital recreation of the pen and paper game, "Tic Tac Toe", where the users take turn to select an empty box and the winner would get a score up</p>
-              <p>Tech stack: JavaScript, HTML, CSS</p>
-              <div className="text-center">
-                <a href="https://razorsharp021.github.io/Tic-Tac-Toe/" target="_blank">
-                  <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/RazorSharp021/Tic-Tac-Toe" target="_blank">
-                  <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* <p>
-            Computer version of the Tic Tac Toe game with a retro Mortal Kombat
-            theme, that keeps a record of player scores.
-          </p> */}
           {/* grid item */}
           <div
             style={{ backgroundImage: `url(${todo})` }}
