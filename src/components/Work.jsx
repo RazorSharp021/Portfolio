@@ -80,12 +80,6 @@ const Work = () => {
             CRUD application for Sydney party people to view a list of upcoming
             events, and store or edit the event data.
           </p> */}
-          {/* grid item */}
-          <div
-            style={{ backgroundImage: `url(${todo})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
-          >
-          </div>
         </div>
       </div>
     </div>
