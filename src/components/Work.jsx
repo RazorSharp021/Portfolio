@@ -85,26 +85,6 @@ const Work = () => {
             style={{ backgroundImage: `url(${todo})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
           >
-            {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100 ">
-              <span className="text-m font-bold text-white tracking-wider">
-                Missions
-              </span>
-              <p>This user friendly to-do application is developed using React.JS to allow the user to create a list of upcoming tasks, edit, delete or mark them as complete</p>
-              <p>Tech stack: React.JS, React hooks, Bootsrap</p>
-              <div className="text-center">
-                <a href="https://missions-mocha.vercel.app/" target="_blank">
-                  <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/RazorSharp021/Missions" target="_blank">
-                  <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
